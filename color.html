@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            height: 350px;
+            background: linear-gradient( to left, red, green, blue, aquamarine, brown, aliceblue)
+        }
+        
+        .y {
+            height: 350px;
+            width: 350px;
+            background: radial-gradient( red, green, blue, aquamarine, brown, aliceblue)
+        }
+        
+        .w {
+            height: 350px;
+            background: linear-gradient( 45deg, red 30%, green, blue, aquamarine, brown, aliceblue)
+        }
+        
+        .v {
+            height: 500px;
+            width: 100%;
+            background-image: url(123.jpg ), url(download.jpg);
+            background-repeat: no-repeat;
+            direction: x y;
+            background-position: right;
+            background-size: 30% 40%, 100% 100%;
+            /* background-attachment: fixed */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="x"></div>
+    <div class="y"></div>
+    <div class="w"></div>
+    <!-- <iframe src="123.jpg" frameborder="0" height="400px" width="400px"></iframe> -->
+    <div class="v"></div>
+
+</body>
+
+</html>
