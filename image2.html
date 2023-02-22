@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <style>
+        .a {
+            height: 400px;
+            width: 400px;
+            background: linear-gradient(red, green, blue, grey, black, aquamarine);
+        }
+        
+        #b {
+            height: 600px;
+            width: 600px;
+            background: url(123.jpg), url(download.jpg), url(hemant\ c.jpg), linear-gradient(black, aquamarine, red, grey);
+            background-repeat: no-repeat;
+            background-size: 100px 100px, 100px 100px, 100% 100%, 100% 100%;
+            background-position: top right, top left, center, center;
+            backface-visibility: visible, visible, visible, initial;
+        }
+        
+        .c {
+            height: 500px;
+            background: linear-gradient(rgba(0, 255, 0, .45), blue), url(hemant\ c.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a"></div>
+    <div id="b"></div>
+    <div class="c"></div>
+</body>
+
+</html>
